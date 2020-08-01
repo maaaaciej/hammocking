@@ -2,6 +2,8 @@ import React from "react";
 
 import Header from "./components/header/header.component";
 
+import Post from "./components/post/post.component"
+
 import "./App.css";
 
 const App = () => {
@@ -9,8 +11,9 @@ const App = () => {
     <div className="App">
       {/* Header */}
       <Header />
+    <Post/>
       {/* Post */}
-      {/* Post */}
+  
     </div>
   );
 };

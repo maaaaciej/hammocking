@@ -1,0 +1,25 @@
+
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color:white;
+    border: 1px solid lightgray;
+    margin: 5px;
+
+    .post_header{
+        text-align: center;
+        padding: 4px;
+    }
+
+    .post_image{
+        align-self: center;
+        width: 95%;
+        height: auto;
+    }
+
+    .post_caption{
+        padding: 5px;
+    }
+}
