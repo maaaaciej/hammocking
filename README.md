@@ -11,7 +11,7 @@ I plan on building the app in react, using firebase for user and data management
 
 Did basic setup, added a header, did some work with chosing the colors, as well as the basic post-layout.
 
-<i>1/8/20</i>
+<i>2/8/20</i>
 
 Did more work on the post and feed components. Added conditional rendering, as well as pushing the dummy posts to firebase, where they get fetched on mountingm, as well as update. 
 
