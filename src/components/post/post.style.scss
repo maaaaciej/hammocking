@@ -1,25 +1,47 @@
 
 
 .post{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+
+    
+    width: 100%;
     background-color:white;
     border: 1px solid lightgray;
     margin: 5px;
+    margin-bottom: 30px;
 
-    .post_header{
-        text-align: center;
-        padding: 4px;
+    .header_container{
+        font-size: 0.9rem;
+        display:flex;
+        align-items: center;
+        
+        .post_header{
+            text-align: center;
+            padding: 4px;
+        }
+        .post_avatar{
+            margin: 10px 8px;
+        }
+        
     }
 
+
     .post_image{
-        align-self: center;
-        width: 95%;
-        height: auto;
+        width: 100%;
+        object-fit: contain;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
     }
 
     .post_caption{
+        display: flex;
         padding: 5px;
+
+        h4{
+            padding: 4px;
+        }
+
+        .post_caption_text{
+            padding: 4px
+        }
     }
 }

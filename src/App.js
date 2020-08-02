@@ -1,8 +1,7 @@
 import React from "react";
 
 import Header from "./components/header/header.component";
-
-import Post from "./components/post/post.component"
+import Feed from "./components/feed/feed.component"
 
 import "./App.css";
 
@@ -11,9 +10,10 @@ const App = () => {
     <div className="App">
       {/* Header */}
       <Header />
-    <Post/>
+      <Feed/>
+   
+      
       {/* Post */}
-  
     </div>
   );
 };
