@@ -5,13 +5,16 @@ import Feed from "./components/feed/feed.component"
 
 import "./App.css";
 
+
+
 const App = () => {
   return (
     <div className="App">
+      
       {/* Header */}
       <Header />
       <Feed/>
-   
+
       
       {/* Post */}
     </div>

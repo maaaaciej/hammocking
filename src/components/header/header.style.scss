@@ -1,9 +1,18 @@
-.logo{
-    object-fit: contain;
-}
 
 .header{
     background-color: white;
     padding: 10px;
     border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+
+    .header_logo{
+        object-fit: contain;
+        align-self: center;
+    }
+    .header_login{
+        justify-self: end;
+        align-self: center;
+    }
+  
 }
